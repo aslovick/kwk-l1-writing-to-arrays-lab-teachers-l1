@@ -15,10 +15,10 @@ end
 
 
 def add_colors
-  rainbow_colors = ["red", "light_red", "light_yellow"]
-  rainbow_colors.push "green"
-  rainbow_colors.push "blue"
-  return rainbow_colors
+  # RAINBOW_COLORS = ["red", "light_red", "light_yellow"]
+  RAINBOW_COLORS.push "green"
+  RAINBOW_COLORS.push "blue"
+  return RAINBOW_COLORS
   # Write a solution that adds "green", then "blue" to the rainbow_colors array, then returns the array
 end
 
